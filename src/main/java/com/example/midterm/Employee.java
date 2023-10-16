@@ -3,6 +3,7 @@ package com.example.midterm;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.regex.Pattern;
 
 public class Employee {
     private int id;
@@ -23,7 +24,7 @@ public class Employee {
         setDepartment(department);
     }
 
-    public int getId() {
+    public  int getId() {
         return id;
     }
 
@@ -83,9 +84,12 @@ public class Employee {
 
         throw new IllegalArgumentException("Invalid department. Department must be one of: sales, marketing, accounting, human resources, information technology, or research and development.");
     }
+    public static boolean isEmailValid(String email) {
+        final Pattern EMAIL_REGEX = Pattern.compile("[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?", Pattern.CASE_INSENSITIVE);
+        return EMAIL_REGEX.matcher(email).matches();
     }
 
-    public String getEmail() {
+    public  String getEmail() {
         return email;
     }
 
