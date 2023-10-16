@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1be45066-88ca-4b34-82a1-97a5c40947fc" name="Changes" comment="Question 2a Complete">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/midterm/DBUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/midterm/DBUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/midterm/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/midterm/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="1be45066-88ca-4b34-82a1-97a5c40947fc" name="Changes" comment="Question 2b Complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,12 +54,29 @@
       <option name="project" value="LOCAL" />
       <updated>1697464957090</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Question 2a Complete">
+      <option name="closed" value="true" />
+      <created>1697468547103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697468547103</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Question 2b Complete">
+      <option name="closed" value="true" />
+      <created>1697468889517</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697468889517</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Question 1 Complete" />
     <MESSAGE value="Question 2a Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question 2a Complete" />
+    <MESSAGE value="Question 2b Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question 2b Complete" />
   </component>
 </project>
